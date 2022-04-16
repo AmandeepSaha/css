@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+    padding: 1em;
+    margin-top: 30px;
+    border: solid 4px;
+    border-color: rgb(156, 138, 55);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(156, 138, 55);
+}
+a:hover {
+    padding: 2em;
+    background-color: rgb(156, 138, 55);
+    color: white;
+    font-size: large;
+    
+}
+a:visited {
+    background-color: yellow;
+}

@@ -1,0 +1,57 @@
+.a table,
+td,
+th {
+    border: 0.5px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.a table {
+    width: 75%;
+    margin: 1em;
+    font-size: larger;
+}
+.a th{
+    padding: 1em;
+}
+.a td{
+    padding: 7px;
+}
+.a .tr,.trh {
+    cursor: pointer;
+}
+.a .trh:hover {
+    background-color: none;
+    color: darkblue;
+}
+.a .tr:hover {
+    background-color: orangered;
+    color: white;
+}
+.b table, th, td {
+    border: 0.5px solid;
+    border-collapse: collapse;
+}
+.a caption{
+    caption-side: var(10px);
+}
+/* 2ND TABLE DESIGN */
+.b table {
+    width: 80%;
+}
+.b th {
+    padding: 20px;
+}
+.b td {
+    padding: 10px;
+
+}
+.b tr:nth-child(even){
+    background: rgb(190, 180, 180);
+}
+.b tr:nth-child(odd){
+    background-color: bisque;
+}
+.b tr:hover{
+    background-color: rgb(163, 163, 163);
+}

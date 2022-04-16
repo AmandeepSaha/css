@@ -1,0 +1,46 @@
+.main_box{
+    width: auto;
+    height: auto;
+    background-color: rgb(13, 245, 129);
+    border: solid rgb(13, 245, 129);
+    border-radius: 5px;
+    margin: 1.5em;
+    padding: 1.8em;
+}
+.second_box{
+    background-color: aqua;
+    border-left: solid red;
+    border-width: 7px;
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#our_heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .link {
+    padding: 13px;
+    background-color: darkolivegreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    max-width: fit-content;
+    margin-top: 3em;
+    text-decoration: none;
+} */
+a {
+    text-decoration: none;
+    
+    
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.link {
+    margin-top: 2em;
+    max-width: fit-content;
+    border-radius: 4px;
+    border: 1px solid darkolivegreen;
+    padding: 1em;
+    margin: 1em;
+    background-color: darkolivegreen;
+    color: white;
+}

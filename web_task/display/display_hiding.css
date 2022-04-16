@@ -1,0 +1,27 @@
+.first,.second,.third{
+    float: left;
+    padding: 0px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 2px 50px;
+    overflow: hidden;
+    width: 28%;
+    height: 400px;
+    margin: 14px;
+    color: white;
+}
+h1{
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .paragraph,p,h1{
+    display: inline;
+} */
+*{
+    background-color: red;
+}
+.first:hover,.second:hover,.third:hover{
+    width: 35%;
+    height: 500px;
+    cursor: pointer;
+}

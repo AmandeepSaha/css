@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body {
+            height: 33333333333333333px;
+        }
+        .box {
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        #box3 {
+            /*relative: relative to it's normanl position*/
+            position: relative; 
+            top: 20px;
+            left: 34px;
+        }
+        #box4 {
+            /* absolute: relative to it's normal position and will leave gap at et's normal positon*/
+
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+        }
+        #box1 {
+            position: fixed;
+            
+            background-color: yellow;
+        }
+        #box2 {
+            position: sticky;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Directly Contact Us. Used to make chat box.</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">4</div>
+</body>
+</html>

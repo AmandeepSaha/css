@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a a:link {
+            text-decoration: none;
+            padding: 1.5em;
+            margin: 2em;
+            border: 3px solid orangered;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #a a:hover {
+            padding: 27px;
+            background-color: green;
+            color: white;
+            border: 3px solid green;
+        }
+        #b {
+            padding: 2em;
+        }
+        #b a:link{
+            text-decoration: none;
+            padding: 1.5em;
+            width: "device-width";
+            background-color: rgb(100, 228, 228);
+            border-left: solid 5px red;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #b a:hover{
+            border-left: solid 10px red;
+            color: aliceblue;
+            text-shadow: 1px 1px 0px red, 0px 0px 25px red;
+        }
+        .btn {
+            color: white;
+            background-color: rebeccapurple;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+            border-radius: 14px;
+            margin: 17px;
+            
+        }
+        .btn:hover {
+            background-color: royalblue;
+            padding: 23px;
+            margin: 17px;
+        }
+    </style>
+</head>
+<body>
+    <div class="all-buttons">
+        <div id="button-a">
+            <button class="btn">I'm a Button</button>
+        </div>
+    </div>
+    <div class="links" style="margin-top: 5em;">
+        <div style="padding: 30px;" id="a">
+            <a href="">Link</a>
+        </div>
+        <div id="b">
+            <a href="#inline_style">Inline</a>
+        </div>
+    </div>
+    <a href="https://www.tutorialspoint.com/powershell/index.htm">python</a>
+</body>
+
+</html>

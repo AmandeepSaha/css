@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Variant</title>
+    <style>
+        #main {
+            padding: 3em;
+        }
+
+        #head {
+            font-family: "Brush Script MT", cursive;
+            color: red;
+            text-shadow: 1px 2px 0px #000, 0 0 25px blue;
+        }
+
+        #paragraph {
+            font-variant: small-caps;
+        }
+
+        #list {
+            font-style: oblique;
+        }
+        #submit {
+            size: 2em;
+            color: red;
+            text-shadow: 0 0 2em blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="head">
+            <h1>Songs</h1>
+        </div>
+        <div id="paragraph">
+            <p>I love the following songs.</p>
+        </div>
+        <div id="list">
+            <li>Valentina</li>
+            <li>Psycho</li>
+            <li>Broken Glass</li>
+            <form action="" method="get">
+                <label for="Name of other songs">Name some of your other favorite songs</label><br>
+                <ol type="i">
+                    <li><input type="text"><br></li><br>
+                    <li><input type="text"><br></li>
+                </ol>
+                
+                <input type="submit" id="sumbit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

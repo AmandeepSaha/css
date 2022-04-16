@@ -1,0 +1,7 @@
+#fst_table {
+    border: solid 2px black;
+}
+th,td {
+    vertical-align: middle;
+    width: 100%;
+}
